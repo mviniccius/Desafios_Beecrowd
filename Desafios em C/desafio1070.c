@@ -8,7 +8,6 @@ int main (){
     
 
     if(num % 2 != 0){
-       num = num + 1;
     for(i = num; i < (num+12); i++){
         if(i % 2 != 0){
             printf("%i\n", i);
@@ -16,12 +15,12 @@ int main (){
     }
     }
     else{
-            for(i = num; i <= (num+12); i++){
+       num = num + 1;
+            for(i = num; i < (num+12); i++){
             if(i % 2 != 0){
             printf("%i\n", i);
         }
     }
-
     }
     
 	return 0;
